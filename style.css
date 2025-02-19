@@ -110,11 +110,166 @@ hr{
 
 .Content{
     background-color: black;
-    height: 500px;
+    height: 3000px;
     font-size: larger;
     font-weight: bolder;
     color: white;
     padding: 70px 80px 10px 80px;
 }
 
+.film{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 15px;
+}
 
+.film .inner img{
+    border-radius:10px ;
+}
+
+.rec .hori .boxes{
+    height: 30vh;
+    width: 45%;
+    background: linear-gradient(145deg, #1b1c38, #20101d);
+    border-radius:15px ;
+    padding: 30px;
+}
+
+.rec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    row-gap: 20px;
+    margin: 30px;
+
+}
+
+.rec .hori{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    column-gap: 20px;
+}
+
+.rec .hori .boxes h3{
+    font-size: 30px;
+
+}
+
+.rec .hori .boxes span{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.FAQ{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.FAQ .quen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 80px;
+    background-color: #2d2d2d;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.FAQ .quen i{
+    color: white;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.last button{
+    color: white;
+    background-color: #fd0915;
+    height: 60px;
+    width: 420px;
+    border-radius: 4px;
+    border-color: #fd0915;
+    z-index: 20;
+    position: relative;
+    font-size: 29px;
+    font-weight: bolder;
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+   padding: 20px;
+   width: 100%;
+}
+footer span{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: underline;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer .foot2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 30px;
+}
+footer .foot2 .inn1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin:10px 150px 10px 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: underline;
+    column-gap: 20px;
+}
+footer .foot2 li{
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+footer .Lang button{
+    color: white;
+    background-color: #fd0915;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    border-color: #fd0915;
+    z-index: 20;
+    position: relative;
+    font-size: large;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
